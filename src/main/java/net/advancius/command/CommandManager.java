@@ -8,6 +8,7 @@ import net.advancius.command.defined.RemoveRewardCommand;
 import net.advancius.command.defined.ResetInviterCommand;
 import net.advancius.command.defined.RewardsCommand;
 import net.advancius.command.defined.SetInvitesCommand;
+import net.advancius.command.defined.SetPrefixCommand;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,6 +23,7 @@ public class CommandManager {
         commandMap.put("inviter", new InviterCommand());
         commandMap.put("invites", new InvitesCommand());
         commandMap.put("leaderboard", new LeaderboardCommand());
+        commandMap.put("setprefix", new SetPrefixCommand());
         commandMap.put("setinvites", new SetInvitesCommand());
         commandMap.put("addreward", new AddRewardCommand());
         commandMap.put("removereward", new RemoveRewardCommand());
