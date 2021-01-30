@@ -17,7 +17,7 @@ public class CommandManager {
     private Map<String, Command> commandMap = new HashMap<>();
 
     public void load() {
-        commandMap.put("dancer", (author, guild, channel, message, arguments) -> message.addReaction(":dancer:"));
+        commandMap.put("dancer", (author, guild, channel, message, arguments) -> message.addReaction(":dancer:").queue());
 
         commandMap.put("inviter", new InviterCommand());
         commandMap.put("invites", new InvitesCommand());
