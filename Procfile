@@ -1,1 +1,0 @@
-worker: java -DenvironmentConfiguration -jar target/AdvanciusInvites.jar Nzk3NjA2MzUwODgwMjQzNzMy.X_o6zA.TX7B28a9vfWD24Lp8pGl6lPxNKg
